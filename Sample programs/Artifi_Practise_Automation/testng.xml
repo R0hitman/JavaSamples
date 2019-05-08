@@ -1,1 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="ArtifiProductSetup">
+
+<test name="login">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="URL" value="stage"></parameter>
+	<parameter name="username" value="mukul.chaudhari@mrrsoft.com"></parameter>
+	<parameter name="password" value="" ></parameter>
+	
+	<classes>
+
+	<Class name="login.Login"></Class>
+	
+	</classes>
+	
+	
+
+
+
+
+
+</test>
+
+
+
+</suite>
